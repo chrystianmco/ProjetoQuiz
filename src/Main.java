@@ -25,6 +25,7 @@ public class Main {
         JOptionPane.showMessageDialog(null, "Bem vindo ao Quiz!", "Quiz", JOptionPane.INFORMATION_MESSAGE);
         JOptionPane.showMessageDialog(null, "Este programa trata-se de um projeto acadêmico para a disciplina Linguagens de Programação,\nonde o objetivo é demonstrar de forma prática o nosso conhecimento adquirido durante as aulas,\nassim criando do zero um programa funcional.", "Quiz", JOptionPane.INFORMATION_MESSAGE);
         JOptionPane.showMessageDialog(null, "Neste jogo você precisa acertar a resposta correta, onde há duas categorias disponíveis para jogar,\ncada categoria possui 7 possíveis respostas. Você terá 5 tentativas para acertar,\ncaso precise de uma ajuda para advinhar a palavra, basta digitar: DICA.", "Quiz", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "O sistema de pontuação é acumulativo, a cada rodada jogada a pontuação feita será somada a pontuação total.\nDesta maneira a pontuação é dada da seguinte maneira:\n\nAcertar na primeira tentativa = 10 pontos\nAcertar na segunda tentativa = 8 pontos\nAcertar na terceira tentativa = 6 pontos\nAcertar na quarta tentativa = 4 pontos\nAcertar na quinta tentativa = 2 pontos", "Quiz", JOptionPane.INFORMATION_MESSAGE);
 
         do {
 
